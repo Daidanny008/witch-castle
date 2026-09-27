@@ -1,0 +1,179 @@
+{
+  "tickSeconds": 0.25,
+  "timeScale": 1,
+  "costScale": 1,
+  "floorWidth": 6,
+  "production": {
+    "itemsPerMinutePerMinion": 2,
+    "tierRatios": [
+      [
+        6,
+        3,
+        1
+      ],
+      [
+        5,
+        3,
+        2
+      ],
+      [
+        4,
+        3,
+        3
+      ]
+    ],
+    "slotsPerLevel": 2
+  },
+  "itemValue": {
+    "common": 5,
+    "uncommon": 10,
+    "rare": 30
+  },
+  "floor": {
+    "baseGold": 60,
+    "growth": 1.18,
+    "polyAfter": 20,
+    "polyExponent": 3,
+    "goods": [
+      {
+        "item": "log",
+        "valueShare": 0.3
+      },
+      {
+        "item": "bread",
+        "valueShare": 0.2
+      }
+    ]
+  },
+  "upkeep": {
+    "foodPerMinionPerMinute": 0.2,
+    "foodItems": [
+      "bread",
+      "meat",
+      "fruit"
+    ],
+    "furnaceBurnMinutes": 45,
+    "furnaceRelightCost": {
+      "items": {
+        "log": 1
+      }
+    },
+    "furnaceReach": 1,
+    "minionsPerToilet": 8
+  },
+  "movement": {
+    "walkSpeed": 0.25,
+    "runSpeed": 0.9,
+    "climbWalkSeconds": 6,
+    "climbRunSeconds": 2.2,
+    "outsideWidth": 1.5
+  },
+  "toilet": {
+    "intervalMinutes": 20,
+    "intervalJitter": 0.25,
+    "useSeconds": 20,
+    "queueSickSeconds": 60,
+    "visitsBeforeClog": 24,
+    "accidentMoodPenalty": 25
+  },
+  "sickness": {
+    "sickMinutes": 10,
+    "hurtMinutes": 10
+  },
+  "physics": {
+    "metersPerFloor": 3,
+    "gravity": 9.8,
+    "hurtImpactSpeed": 8,
+    "lethalImpactSpeed": 11,
+    "maxThrowFloorsPerSecond": 8,
+    "wallBounce": 0.3
+  },
+  "mood": {
+    "targetByFailedNeeds": [
+      90,
+      55,
+      30,
+      10
+    ],
+    "changePerMinute": 10,
+    "bands": [
+      {
+        "min": 80,
+        "face": ":D",
+        "output": 1.1
+      },
+      {
+        "min": 60,
+        "face": ":)",
+        "output": 1.0
+      },
+      {
+        "min": 40,
+        "face": ":|",
+        "output": 0.8
+      },
+      {
+        "min": 20,
+        "face": ":(",
+        "output": 0.5
+      },
+      {
+        "min": 0,
+        "face": ">:(",
+        "output": 0.2
+      }
+    ]
+  },
+  "exp": {
+    "perCollect": 1,
+    "perRecruit": 5,
+    "perFloor": 10,
+    "perLevel": 20
+  },
+  "demolishRefund": 0.3333,
+  "cheats": {
+    "crystalFinishCost": 1
+  },
+  "start": {
+    "gold": 150,
+    "items": {
+      "bread": 20,
+      "log": 10
+    },
+    "floors": 3,
+    "rooms": [
+      {
+        "type": "shack",
+        "floor": 1,
+        "cell": 0,
+        "minions": 1
+      },
+      {
+        "type": "toilet",
+        "floor": 1,
+        "cell": 4
+      },
+      {
+        "type": "stairs_right",
+        "floor": 1,
+        "cell": 5
+      },
+      {
+        "type": "hunters_lodge",
+        "floor": 2,
+        "cell": 0,
+        "minions": 1
+      },
+      {
+        "type": "furnace",
+        "floor": 2,
+        "cell": 4
+      },
+      {
+        "type": "stairs_left",
+        "floor": 2,
+        "cell": 5
+      }
+    ]
+  }
+}

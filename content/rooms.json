@@ -1,0 +1,207 @@
+{
+  "shack": {
+    "name": "Shack",
+    "tab": "dwelling",
+    "width": 1,
+    "flavor": "A miserable dwelling for Serfs",
+    "unlockFloor": 0,
+    "resident": "serf",
+    "production": {
+      "kind": "gold",
+      "goldPerMinute": 4,
+      "storageMinutes": 5
+    },
+    "levels": [
+      {
+        "cost": {
+          "gold": 25
+        }
+      },
+      {
+        "cost": {
+          "gold": 50,
+          "items": {
+            "bread": 5,
+            "log": 4
+          }
+        }
+      },
+      {
+        "cost": {
+          "gold": 220,
+          "items": {
+            "plank": 5,
+            "fruit": 1
+          }
+        }
+      }
+    ]
+  },
+  "hunters_lodge": {
+    "name": "Hunter's Lodge",
+    "tab": "crafting",
+    "width": 3,
+    "flavor": "Recruit hunters to produce bread, meat or fruit",
+    "unlockFloor": 0,
+    "resident": "hunter",
+    "production": {
+      "kind": "goods",
+      "tiers": [
+        "bread",
+        "meat",
+        "fruit"
+      ],
+      "storagePerMinion": 12
+    },
+    "levels": [
+      {
+        "cost": {
+          "gold": 100
+        }
+      },
+      {
+        "cost": {
+          "gold": 180,
+          "items": {
+            "log": 12,
+            "meat": 3,
+            "fruit": 1
+          }
+        }
+      },
+      {
+        "cost": {
+          "gold": 450,
+          "items": {
+            "log": 18,
+            "plank": 20,
+            "fruit": 2
+          }
+        }
+      }
+    ]
+  },
+  "loggers_lodge": {
+    "name": "Logger's Lodge",
+    "tab": "crafting",
+    "width": 3,
+    "flavor": "Recruit Loggers to produce log, plank or panel",
+    "unlockFloor": 0,
+    "resident": "logger",
+    "production": {
+      "kind": "goods",
+      "tiers": [
+        "log",
+        "plank",
+        "panel"
+      ],
+      "storagePerMinion": 12
+    },
+    "levels": [
+      {
+        "cost": {
+          "gold": 65,
+          "items": {
+            "bread": 5
+          }
+        }
+      },
+      {
+        "cost": {
+          "gold": 170,
+          "items": {
+            "bread": 10,
+            "plank": 5,
+            "panel": 1
+          }
+        }
+      },
+      {
+        "cost": {
+          "gold": 400,
+          "items": {
+            "plank": 20,
+            "panel": 2,
+            "meat": 6
+          }
+        }
+      }
+    ]
+  },
+  "stairs_right": {
+    "name": "Stairs (Right)",
+    "tab": "tower",
+    "width": 1,
+    "flavor": "Narrow, uneven and medieval. Climbs to the right, up to the floor above",
+    "unlockFloor": 0,
+    "utility": {
+      "kind": "stairs",
+      "facing": "right"
+    },
+    "levels": [
+      {
+        "cost": {
+          "gold": 15
+        }
+      }
+    ]
+  },
+  "stairs_left": {
+    "name": "Stairs (Left)",
+    "tab": "tower",
+    "width": 1,
+    "flavor": "Narrow, uneven and medieval. Climbs to the left, up to the floor above",
+    "unlockFloor": 0,
+    "utility": {
+      "kind": "stairs",
+      "facing": "left"
+    },
+    "levels": [
+      {
+        "cost": {
+          "gold": 15
+        }
+      }
+    ]
+  },
+  "furnace": {
+    "name": "Furnace",
+    "tab": "tower",
+    "width": 1,
+    "flavor": "Warms its own floor and the floors directly above and below",
+    "unlockFloor": 0,
+    "utility": {
+      "kind": "furnace"
+    },
+    "levels": [
+      {
+        "cost": {
+          "gold": 20,
+          "items": {
+            "log": 3
+          }
+        }
+      }
+    ]
+  },
+  "toilet": {
+    "name": "Toilet",
+    "tab": "tower",
+    "width": 1,
+    "flavor": "You need 1 for every 8 minions",
+    "unlockFloor": 0,
+    "utility": {
+      "kind": "toilet"
+    },
+    "levels": [
+      {
+        "cost": {
+          "gold": 25,
+          "items": {
+            "log": 3
+          }
+        }
+      }
+    ]
+  }
+}

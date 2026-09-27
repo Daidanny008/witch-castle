@@ -1,0 +1,8 @@
+{
+  "bread": { "name": "Bread", "tag": "[bread]", "tier": "common", "family": "food" },
+  "meat":  { "name": "Meat",  "tag": "[meat]",  "tier": "uncommon", "family": "food" },
+  "fruit": { "name": "Fruit", "tag": "[fruit]", "tier": "rare", "family": "food" },
+  "log":   { "name": "Log",   "tag": "[log]",   "tier": "common", "family": "wood" },
+  "plank": { "name": "Plank", "tag": "[plank]", "tier": "uncommon", "family": "wood" },
+  "panel": { "name": "Panel", "tag": "[panel]", "tier": "rare", "family": "wood" }
+}

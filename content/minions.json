@@ -1,0 +1,32 @@
+{
+  "serf": {
+    "name": "Serf",
+    "recruitCost": {
+      "gold": 2,
+      "items": {
+        "bread": 2
+      }
+    },
+    "arrivalSeconds": 6,
+    "color": "#cdbd98"
+  },
+  "hunter": {
+    "name": "Hunter",
+    "recruitCost": {
+      "gold": 70
+    },
+    "arrivalSeconds": 60,
+    "color": "#8fd16a"
+  },
+  "logger": {
+    "name": "Logger",
+    "recruitCost": {
+      "gold": 20,
+      "items": {
+        "bread": 10
+      }
+    },
+    "arrivalSeconds": 60,
+    "color": "#e9a24f"
+  }
+}
